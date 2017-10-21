@@ -43,7 +43,7 @@ var liri = {
 
     getTweets: function() {
         var params = {
-            screen_name: 'KaSeMuNNy',
+            screen_name: 'andalibkibria',
             count: 20
         };
 
