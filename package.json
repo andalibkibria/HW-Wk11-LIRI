@@ -1,0 +1,35 @@
+{
+  "name": "liri-cli",
+  "version": "1.0.1",
+  "description": "LIRI is a command line Node application that takes in parameters (via command line arguments or file input) to display tweets, songs from Spotify, and movie information from OMDB.",
+  "main": "liri.js",
+  "bin": {
+    "liri": "./liri.js"
+  },
+  "scripts": {
+    "help": "./liri.js",
+    "do": "./liri.js do-what-it-says",
+    "movie": "./liri.js movie",
+    "spotify": "./liri.js spotify",
+    "tweets": "./liri.js tweets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreylowy/liri-node-app.git"
+  },
+  "author": "Jeffrey Lowy <jeffreylowy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffreylowy/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/jeffreylowy/liri-node-app#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "dotenv": "^4.0.0",
+    "moment": "^2.19.1",
+    "node-spotify-api": "^1.0.7",
+    "propercase": "^1.0.2",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
